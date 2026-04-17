@@ -1,0 +1,11 @@
+# 秘密情報と環境設定
+config/sovereign.env
+*.env
+
+# データベースと巨大なバイナリ
+memory/*.db
+temp/
+
+# Python キャッシュ
+__pycache__/
+*.py[cod]
